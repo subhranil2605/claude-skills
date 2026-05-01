@@ -70,3 +70,90 @@ Clone this repo:
 
 ```bash
 git clone https://github.com/your-username/engineering-standards.git
+````
+
+---
+
+### 2. Upload to Claude
+
+* Open Claude
+* Go to **Skills**
+* Upload the `engineering-standards/` folder
+
+---
+
+### 3. Use it
+
+#### In Claude Chat:
+
+Ask:
+
+```
+Is this API design correct?
+```
+
+```
+Review this code for security issues
+```
+
+#### In Claude Code:
+
+The skill automatically:
+
+* reviews your code
+* guides decisions
+* enforces standards
+
+---
+
+## 🧩 Structure
+
+```
+engineering-standards/
+├── SKILL.md
+└── references/
+    ├── security.md
+    ├── performance.md
+    ├── code-quality.md
+    ├── reliability.md
+    ├── devops.md
+    └── compliance.md
+```
+
+---
+
+## 🔥 Philosophy
+
+> Don’t rely on developer experience
+> → Encode engineering standards into the system
+
+---
+
+## 🚀 Future Plans
+
+* Auto PR review integration
+* n8n workflow validation
+* AI code auditing pipelines
+
+---
+
+## 🤝 Contributing
+
+PRs are welcome.
+
+For major changes:
+
+* open an issue first
+* discuss improvements
+
+---
+
+## 📜 License
+
+MIT
+
+---
+
+## 💬 Want the skill improvements?
+
+Feel free to fork, modify, and use in your own workflows.
